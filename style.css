@@ -27,7 +27,7 @@ body {
     border: 10px solid rgb(65, 64, 63);
     background:black;
     
-    padding: 0;   
+    padding: 10px;   
     margin: 0;
 }
 
@@ -40,22 +40,27 @@ button {
 
 
 button {
-    background-color: rgb(8, 17, 19);
+    background-color: black;
     border: none;
     margin: 0;
     font-size: 30px;
     color: rgb(253, 253, 252);
     cursor: pointer;
+
     
     
 }
 button:active {
-    /* Change opacity when the button is clicked */
+  
     opacity: 0.6;
-    background-color: gray;
+    background-color: rgb(89, 89, 87);
     
   }
 
 .this {
     background-color: rgb(128, 9, 0);
+}
+.back:active {
+    opacity: 0.6;
+    background-color: black;
 }
